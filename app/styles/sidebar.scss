@@ -40,6 +40,11 @@ $nav-width : 235px;
     text-align: center;
   }
 
+  .site-credit {
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+  }
+
   p {
     margin-bottom: 5px;
     margin-top: 15px;
@@ -76,6 +81,12 @@ $nav-width : 235px;
       border-bottom: 0;
     }
   }
+}
+
+#bottom-link {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 

@@ -4,40 +4,60 @@
       <ul class="nav nav-pills nav-stacked sidenav">
         <li>
           <a href="#/" class="website-name">
-            cook manager
+            cook planner
           </a>
         </li>
         <li>
           <a href="#/" class="logo">
             <img src="images/logo-shield.png" class="site-avatar" />
-            <p class="text-xs-center"></p>
+            <p class="text-xs-center">user name</p>
           </a>
         </li>
         <li>
           <a href="#/">
-            <i class="fa fa-home"></i>
-            <span>&nbsp; Home</span>
+            <i class="fa fa-shopping-cart"></i>
+            <span>&nbsp; Store</span>
           </a>
         </li>
         <li>
           <a href="#/gifs">
-            <i class="fa fa-folder-open-o"></i>
-            <span>&nbsp; Gallery</span>
+            <i class="fa fa-archive"></i>
+            <span>&nbsp; Pantry</span>
+          </a>
+        </li>
+        <li>
+          <a href="#/gifs">
+            <i class="fa fa-th"></i>
+            <span>&nbsp; Products</span>
           </a>
         </li>
         <li>
           <a href="#/createImage">
-            <i class="fa fa-plus"></i>
-            <span>&nbsp; Create</span>
+            <i class="fa fa-credit-card"></i>
+            <span>&nbsp; Orders</span>
+          </a>
+        </li>
+        <li>
+          <a href="#/createImage">
+            <i class="fa fa-line-chart"></i>
+            <span>&nbsp; Analysis</span>
           </a>
         </li>
         <li id="bottom-link" ng-controller="MainCtrl as mainCtrl">
-          <a ng-click="mainCtrl.logout()">
-            <i class="fa fa-sign-out"></i>
-            <span>&nbsp;&nbsp; Logout</span>
-          </a>
+          <ul>
+            <li>
+              <a ng-click="mainCtrl.logout()">
+                <i class="fa fa-sign-out"></i>
+                <span>&nbsp;&nbsp; Logout</span>
+              </a>
+            </li>
+            <li>
+              <p class="site-credit">Site by arpalarp: <a ng-href="http://www.andrewpalmer.co" target="_blank">andrewpalmer.co</a></p>
+            </li>
+          </ul>
         </li>
       </ul>
+
     </div>
   </div>
 </aside>
