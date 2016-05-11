@@ -30,6 +30,21 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/store', {
+        templateUrl: 'views/store.html',
+        controller: 'StoreCtrl',
+        controllerAs: 'store'
+      })
+      .when('/pantry', {
+        templateUrl: 'views/pantry.html',
+        controller: 'PantryCtrl',
+        controllerAs: 'pantry'
+      })
+      .when('/products', {
+        templateUrl: 'views/products.html',
+        controller: 'ProductsCtrl',
+        controllerAs: 'products'
+      })
       .otherwise({
         redirectTo: '/'
       });
