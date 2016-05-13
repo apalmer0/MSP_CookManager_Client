@@ -1,0 +1,104 @@
+$light-grey: #e5e5e5;
+$grey: #ccc;
+$dark-grey: #777;
+$black: #000;
+
+$brand-background: #a78e76;
+$white: #fff;
+$nav-width : 235px;
+
+.portfolio-item {
+  margin-bottom: 25px;
+}
+
+.item-preview {
+  background-color: $light-grey;
+  border: 1px solid $black;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 130px;
+  margin-right: 10px;
+  width: 130px;
+}
+
+.new-item {
+  background-color: $light-grey;
+  background-image: url('../images/add.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  border: 1px solid $black;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 130px;
+  margin-right: 10px;
+  width: 130px;
+}
+
+.new-item-text {
+  bottom: 0;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+
+.item-list {
+  float: left;
+}
+
+.item-details {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 0, 0, 0));
+  // background: $black;
+  color: $white;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-comment {
+  font-size: 75%;
+}
+
+.item-options-button {
+  display: none;
+  margin-left: 5px;
+  margin-top: -38px;
+  position: absolute;
+}
+
+.item-edit-button {
+  display: none;
+  margin-right: 18px;
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+.item-edit-panel {
+  background-color: $white;
+  border: 1px solid $black;
+  height: 157px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.item-thumbnail:hover {
+  box-shadow: 0 10px 5px $dark-grey;
+
+  .item-options-button {
+    display: block;
+  }
+
+  .item-edit-button {
+    display: block;
+  }
+}
+
+.page-header {
+  margin: 20px 0;
+}
